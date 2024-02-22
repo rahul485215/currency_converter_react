@@ -15,6 +15,7 @@ function App() {
     <div className="box"> </div>
       <div className="data">
         <DataProvider>
+
           <Header title="currency converter" />
 
           <Amount />
@@ -23,7 +24,8 @@ function App() {
 
           <ToCurrency />
 
-          <Result /> 
+          <Result />
+           
         </DataProvider>   
     </div>
    </div>
